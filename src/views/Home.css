@@ -1,0 +1,14 @@
+.sidebar {
+    position: fixed; /* Fixer le sidebar */
+    top: 0; /* Position en haut de la fenêtre */
+    left: 0; /* Position à gauche de la fenêtre */
+    width: 250px; /* Largeur du sidebar */
+    height: 100%; /* Hauteur à 100% de la fenêtre */
+  }
+  
+  .content {
+    margin-left: 280px; /* Déplacer le contenu principal vers la droite */
+    padding: 15px; /* Ajouter de l'espace intérieur pour le contenu */
+  }
+  
+  

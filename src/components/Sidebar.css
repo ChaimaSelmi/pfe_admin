@@ -1,0 +1,76 @@
+
+
+  .pcoded-navbar {
+    width: 200px; /* Limiter la largeur du sidebar */
+    background-color: #9ea0a3; /* Couleur de fond du sidebar */
+  }
+  
+  /* Style pour le logo */
+  .xn-logo {
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .xn-logo a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .pcoded-item a {
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    padding: 15px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pcoded-item a:hover {
+    background-color: #cfd1d5e7;
+  }
+  
+  /* Style pour les icônes */
+  .pcoded-item a i {
+    margin-right: 10px;
+  }
+  
+  /* Style pour les éléments actifs */
+  .pcoded-item.active {
+    background-color: #1e2939;
+  }
+  
+  .pcoded-item ul a:hover {
+    background-color: #1e2939;
+  }
+  
+  /* Style pour les liens actifs dans les sous-éléments */
+  .pcoded-item ul .active {
+    background-color: #1e2939;
+  }
+  
+  /* Style pour les éléments de la barre latérale */
+.pcoded-item a {
+    color: #292828;
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+  
+  /* Style pour les liens dans les sous-éléments */
+  .pcoded-item ul a {
+    color: #000000;
+    display: block;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    font-weight: bold; /* Texte en gras */
+    text-align: left; /* Aligné à gauche */
+  }
+  
+  
+
+  
+
+  

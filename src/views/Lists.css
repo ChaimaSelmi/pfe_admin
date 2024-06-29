@@ -1,0 +1,64 @@
+/* Styles pour la table */
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  border-collapse: separate;
+  border-spacing: 0 0.5rem;
+}
+
+/* Styles pour les en-têtes de colonne */
+.table th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+  text-align: inherit;
+}
+
+/* Styles pour les lignes */
+.table td,
+.table th {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+/* Styles pour la colonne d'actions */
+.table td:last-child {
+  white-space: nowrap;
+}
+
+/* Styles pour les liens d'action */
+.table td a {
+  color: #6c757d;
+  text-decoration: none;
+}
+
+/* Hover des liens d'action */
+.table td a:hover {
+  color: #343a40;
+}
+
+/* Barre de séparation entre les actions */
+.table td a + a {
+  margin-left: 0.5rem;
+}
+/* Styles pour les lignes */
+.table td,
+.table th {
+  width: 600px; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  white-space: normal;
+  word-wrap: break-word;
+  font-size: 12px;
+}
+
+/* Styles pour la colonne d'actions */
+.table td:last-child {
+  white-space: nowrap;
+  /* Supprimez la largeur maximale pour la dernière colonne pour qu'elle occupe tout l'espace disponible */
+}
+
+
+

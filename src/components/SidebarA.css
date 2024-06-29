@@ -1,0 +1,24 @@
+.sidebar {
+    width: 250px; /* Largeur de la barre latérale */
+    height: 100%; /* Hauteur de la barre latérale */
+    background-color: #333; /* Couleur de fond de la barre latérale */
+    color: white; /* Couleur du texte dans la barre latérale */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1; /* Fait en sorte que la liste occupe tout l'espace restant */
+  }
+  
+  .sidebar ul li {
+    padding: 10px;
+  }
+  
+  .sidebar ul li:hover {
+    background-color: #555;
+  }
+  
